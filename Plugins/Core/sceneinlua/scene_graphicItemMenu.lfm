@@ -79,6 +79,7 @@
 		
 		local btnApagar = newMenuItem(lang("scene.remove.item"), self.flaLayout);				
 				
+		local btnTransformaParede = newMenuItem(lang("scene.wallconvert.item"), self.flaLayout);
 		
 		-- Menu Camadas
 				
@@ -137,7 +138,11 @@
 												end);
 										end;
 									end);			
-							end;								
+							end;
+
+		btnTransformaParede.onClick = function()
+								showMessage("Em Breve...");
+							end;
 		
 		function self:setActiveMenu(menu)
 			currentMenuLayout = menu;

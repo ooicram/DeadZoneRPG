@@ -66,6 +66,8 @@ scene.diagonals.euclidean=Distância Real
 
 scene.remove.item=Remover...
 
+scene.wallconvert.item=converter em parede
+
 scene.ask.deleteOneItem=Deseja realmente apagar o item selecionado?
 scene.ask.deleteMultiItem=Deseja realmente apagar os %d itens selecionados?
 scene.visibilityChange.ToGMOnly=Esconder dos jogadores
@@ -220,6 +222,8 @@ scene.diagonals.manhattan=Double Distance
 scene.diagonals.euclidean=Real Distance
 
 scene.remove.item=Delete...
+
+scene.wallconvert.item=Convert to wall
 
 scene.ask.deleteOneItem=Delete the selected item?
 scene.ask.deleteMultiItem=Delete the %d selected itens?
